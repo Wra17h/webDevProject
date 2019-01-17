@@ -1,0 +1,236 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Главная страница'
+	- var pageClass = 'index-page'
+
+block content
+	.header
+		.content
+			.header
+					a(href="#").logo
+					nav.header-menu
+						ul
+							li
+								a(class="link" href="#") Home
+							li
+								a(class="link" href="#") About
+							li
+								a(class="link" href="#") Servicing
+							li
+								a(class="link" href="#") Blog
+							li
+								a(class="link" href="#") Portfolio
+							li
+								a(class="link" href="#") About us
+						.search
+	.slider-top
+		.sl-header Web development project
+		.txt-header Very suitable to support all web development projects
+		.buttons-slider
+			.button Our services
+			.button Here is now
+		.arrow-down
+	.aboutUs
+		.content
+			.sec-header <span>About Us</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			.aboutUs-items
+				.aboutUs-item
+					.aU-icon
+					.aU-header Awesome Icons
+					.aU-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				.aboutUs-item
+					.aU-icon
+					.aU-header One Page
+					.aU-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				.aboutUs-item
+					.aU-icon
+					.aU-header Fully Responsive
+					.aU-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+	.our-services
+		.content
+			.sec-header <span>Our Services</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			.ourS-items
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+				.ourS-item
+					.ourS-icon
+					.ourS-header Research
+					.ourS-txt At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+					.ourS-button read more
+	.latest-works
+		.content
+			.sec-header <span>Latest Works</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			.lW-buttons
+				.lW-button all
+				.lW-button web-design
+				.lW-button ui/ux desing
+				.lW-button mockups
+			.lW-items
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+				.lW-item
+					.lW-item-h Hand watch <span>UI/UX Design</span>
+			.lW-vA view all
+	.pricing-plan
+		.content
+			.sec-header <span>Pricing Plan</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			.pP-items
+				.pP-item
+					.pP-header
+						.name-pP Free trial
+						.price-pP <span><sup>$</sup>00</span> per month
+					ul
+						li 30 Free Trial
+						li 5 Free Projects
+						li PHP 5 Enabled
+						li 24/7 Support
+					.pP-button Order Now
+				.pP-item
+					.pP-header
+						.name-pP Basic
+						.price-pP <sup>$</sup><span>50</span> per month
+					ul
+						li 30 Free Trial
+						li 5 Free Projects
+						li PHP 5 Enabled
+						li 24/7 Support
+					.pP-button Order Now
+				.pP-item
+					.pP-header
+						.name-pP Ultimate
+						.price-pP <sup>$</sup><span>99</span> per month
+					ul
+						li 30 Free Trial
+						li 5 Free Projects
+						li PHP 5 Enabled
+						li 24/7 Support
+					.pP-button Order Now
+	.our-team
+		.content
+			.sec-header <span>Our Team Member</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			.ot-items
+				.ot-item
+					<img src="img/man1.png">
+					.item-name John Doe
+					.item-prof General Manager
+					.item-social
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+				.ot-item
+					<img src="img/man2.png">
+					.item-name Alexa Biru
+					.item-prof Office Director
+					.item-social
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+				.ot-item
+					<img src="img/man3.png">
+					.item-name Ronobir sing
+					.item-prof Admin
+					.item-social
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+						.social-link
+							.soc-img
+			.ot-pagination
+				.pag-item.active
+				.pag-item
+				.pag-item
+	.blog
+		.content
+			.sec-header <span>Blog</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			.blog-items
+				.blog-item
+					.blog-item-img
+					.blog-item-info
+						.item-header SEO Quis Vestibulum
+						.item-info
+							.views 14.07.2017
+							.sect Development
+						.item-txt Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+				.blog-item
+					.blog-item-info
+						.item-header SEO Quis Vestibulum
+						.item-info
+							.views 14.07.2017
+							.sect Development
+						.item-txt Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+					.blog-item-img
+				.blog-item
+					.blog-item-img
+					.blog-item-info
+						.item-header SEO Quis Vestibulum
+						.item-info
+							.views 14.07.2017
+							.sect Development
+						.item-txt Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+			.blog-mw More view
+	.contact-us
+		.content
+			.sec-header <span>Contact Us</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			.cu-items
+				.cu-item
+					.cu-item-img
+					.cu-item-txt Nobinagar savar,Dhaka Bangladesh
+				.cu-item
+					.cu-item-img
+					.cu-item-txt <a href="tel:+8801743331996">+8801743331996</a> <br />+8801928737807
+				.cu-item
+					.cu-item-img
+					.cu-item-txt <a href="mailto:quickmasud@gmail.com">quickmasud@gmail.com</a> <br/>quickmasud@yahoo.com
+			form
+				.input
+					input.name(type="text" placeholder="Ваше имя")
+					input.mail(type="mail" placeholder="Ваш email")
+				textarea.msg(placeholder="Ваш текст")
+				button(type="submit") Отправить
+	.footer
+		.content All rights Reserved <span>©</span> 2017

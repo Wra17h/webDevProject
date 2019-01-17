@@ -1,0 +1,19 @@
+//TODO: Поменять миксин для более удобного написания, и обновить в проекте
+@mixin backImg($img, $height, $width, $backSize: contain, $backRepeat: no-repeat, $cursor:pointer) {
+  	background-image: $img;
+  	background-size: $backSize;
+  	background-repeat: $backRepeat;
+  	cursor: $cursor;
+  	height: $height;
+  	width: $width;
+  };
+//
+//@mixin fontF($name, $fontName, $fw, $fs) {
+//  font-family: $name;
+//  src: url($fontName + ".eot?") format("eot"),
+//		url($fontName + ".woff") format("woff"),
+//  		url($fontName + ".ttf") format("truetype"),
+//  		url($fontName + ".woff2") format("woff2");
+//  font-weight: $fw;
+//  font-style: $fs;
+//  }
